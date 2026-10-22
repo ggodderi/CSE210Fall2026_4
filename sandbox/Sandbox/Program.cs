@@ -5,6 +5,10 @@ class Program
 {
     static void Main(string[] args)
     {
+
+        // string x = "This a string with 234234234";
+        Console.Write("Please enter your age: ");
+        int age = int.Parse(Console.ReadLine());
         Circle myCircle = new Circle();
 
         myCircle._radius = 10;
